@@ -1,0 +1,18 @@
+// ======================================== Main Section Styles ======================================== //
+@import '../../../../styles/sass/utilities/mixins';
+@import '../../../../styles/sass/utilities/variables';
+
+.section {
+  min-height: calc(100vh - 86px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include for_phone() {
+    min-height: calc(100vh - 54px);
+  }
+  &_title {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+// ======================================== Main Section Styles ======================================== //
